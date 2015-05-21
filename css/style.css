@@ -1,0 +1,206 @@
+.header {
+	color: white;
+}
+
+.text {
+	text-align: center;
+}
+.cinemaName{
+	padding: left;
+	margin : 20px;
+}
+div.footer a {
+	color: red;
+}
+div.footer a:hover {
+	color: #BC782D;
+}
+
+div.nav {
+	height:40px;
+	background-color: #020202;
+	text-align: center;
+	font-size: 18px;
+	display: block;
+	float: none;
+}
+
+div.nav div {
+	transition: background-color 500ms;
+	padding-top: 7px;
+	height: 33px;
+	width: 150px;
+	display: inline-block;
+	background-color: #040404;
+	cursor: pointer; 
+}
+div.div_table {
+	width: 800px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+div.nav div:hover {
+	background-color: #BC782D;
+}
+
+div.nav div a {
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+html, body {
+	margin: 0px;
+}
+body {
+	
+	text-align: center;
+	font-family: "Oxygen", "Arial";
+}
+
+div.header {
+	background-color: white;
+	height: 100px;
+	overflow: hidden;
+}
+
+div.headerContent {
+	width: 760px;
+	height: 100px;
+	margin: 0 auto;
+}
+
+div.header div.logo, div.header div.cinemaName {
+	height: 100px;
+	display: inline-block;
+	float: left;
+	font-size: 50px;
+	color: white;
+}
+
+div.contents {
+	min-height: 780px;
+	padding-top: 20px;
+	background-color: #131313;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: repeat-y;
+	color: #ffffff;
+}
+
+div.cover  {
+	width: 760px;
+	height: 350px;
+	margin: 0 auto;
+	float: center;
+	
+}
+
+div.header_movies {
+	font: bold 200%/100% "Lucida Grande";
+	position: relative;
+	color: white;
+}
+<!-- Movies table --sample design from http://www.hoyts.com.au/movies/now_on_sale.aspx> 
+
+div.div_table {
+	width: 800px;
+	margin: 0 auto;
+	text-align: center;
+	font: bold 85%/100% "Lucida Grande";
+}
+/*
+.clear.divider {
+    margin-bottom: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+/*
+.divider {
+    background-image: url("..data/divider.png");
+    background-repeat: repeat-x;
+    height: 13px;
+}
+.clear {
+    clear: both;
+    display: block;
+}
+*/
+
+div.div_table div {
+	transition: opacity 500ms;
+	width: 240px;
+	height: 300px;
+	border: 1px solid black;
+	margin: 5px 5px 50px 5px;
+	display: inline-block;
+	opacity: 1;
+	cursor: pointer;
+}
+div.div_table img{
+	height: 300px;
+	width : 202px;
+}
+
+div.div_table div:hover {
+	-moz-box-shadow: 0 0 10px #ccc; 
+	-webkit-box-shadow: 0 0 10px #ccc; 
+	box-shadow: 0 0 10px #ccc;
+}
+div.introduction{
+	font: bold 200%/100% "Lucida Grande";
+	position: relative;
+	color: white;
+}
+div.footer {
+	background-color: #020202;
+	color: #FFFFFF;
+	padding-top: 7px;
+	height: 33px;
+	text-align: center;
+}
+form.contact fieldset {
+	border-style: solid;
+	width: 760px;
+	margin: 0 auto;
+	text-align: left;
+}
+<!-- Price Table >
+.CinemaHeading{
+	text-align : center;
+	font-weight : bold;
+}
+.PriceTable  {
+	border : 1px solid white;
+	width : 800px;
+	text-align : center;
+}
+.PriceTable th  {
+	border : 1px solid white;
+	width : 800px;
+	text-align : center;
+	font-size : 100%
+}
+div.info {
+	display : inline-block;
+	background-position: center;
+	text-align: center;
+
+}form.booking fieldset {
+	border: none;
+	width: 760px;
+	margin: 0 auto;
+	text-align: left;
+}/* Paragraph in the booking form */
+.Description{
+	
+	max-width : 1000px;
+	min-width : 600px;
+	margin : 0 auto;
+	width : 80%;
+}
